@@ -13,7 +13,7 @@ class GroupCheckForm(forms.Form):
             widget=forms.CheckboxSelectMultiple(),
         )
 
-# Groupの選択メニューフォーム
+# Groupの選択メニューフォーム ちんちん
 class GroupSelectForm(forms.Form):
     def __init__(self, user, *args, **kwargs):
         super(GroupSelectForm, self).__init__(*args, **kwargs)
